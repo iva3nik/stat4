@@ -1,0 +1,61 @@
+.superman {
+  position: absolute;
+  top: 130px;
+  right: -112px;
+}
+
+.superman__image {
+  width: 245px;
+  height: 245px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .superman {
+    top: 326px;
+    right: -169px;
+  }
+
+  .superman__image {
+    width: 410px;
+    height: 410px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .superman {
+    width: 458px;
+    height: 416px;
+    top: 240px;
+    right: 40px;
+    background-image: url(../assets/images/block_stars.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .superman__image {
+    width: 410px;
+    height: 410px;
+    position: relative;
+    bottom: 23.5px;
+    left: 23px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .superman {
+    width: 620px;
+    height: 563.26px;
+    top: 215px;
+    right: 225px;
+  }
+
+  .superman__image {
+    width: 560px;
+    height: 560px;
+    bottom: 44.26px;
+    left: 30px;
+  }
+}

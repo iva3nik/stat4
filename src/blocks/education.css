@@ -73,6 +73,16 @@
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 520px) {
+  .education__title {
+    width: 400px;
+  }
+
+  .education__price {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .education {
     margin: 45px 0 65px;
@@ -85,11 +95,21 @@
     width: 688px;
   }
 
+  .education__price {
+    margin-bottom: 17px;
+  }
+
   .education__text {
     width: 482px;
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .education__text {
+    width: 711px;
   }
 }
 
@@ -104,10 +124,6 @@
 
   .education__price {
     margin-bottom: 40px;
-  }
-
-  .education__text {
-    width: 711px;
   }
 }
 
