@@ -46,3 +46,71 @@
   line-height: 14px;
   color: rgba(51, 26, 47, 0.9);
 }
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 100%;
+  }
+
+  .logo__logo {
+    width: 187.28px;
+    height: 63.44px;
+  }
+
+  .logo__icon {
+    width: 46.95px;
+    height: 18.65px;
+  }
+
+  .logo__name {
+    font-size: 24.76px;
+    line-height: 30px;
+  }
+
+  .logo__text {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo__logo {
+    width: 187.28px;
+    height: 38.44px;
+  }
+
+  .logo__icon {
+    width: 45.07px;
+    height: 23.48px;
+  }
+
+  .logo__text {
+    align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logo__logo {
+    width: 241px;
+    height: 70.67px;
+  }
+
+  .logo__icon {
+    width: 60.42px;
+    height: 30.61px;
+  }
+
+  .logo__name {
+    font-size: 31.8px;
+    line-height: 39px;
+  }
+
+  .logo__text {
+    margin-left: 19px;
+    width: 229px;
+    height: 80px;
+    padding-left: 25px;
+    border-left: 1px solid rgba(51, 26, 47, 0.5);
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
