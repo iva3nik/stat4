@@ -1,0 +1,94 @@
+.sales {
+  margin: 100px 0 100px;
+}
+
+.sales__title {
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #331a2f;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.sales__title span {
+  color: #ea5dbb;
+}
+
+.sales__line {
+  width: 131px;
+  height: 4px;
+  background: linear-gradient(264.91deg, #7c4eab 0.73%, #dd51d4 95.85%);
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.sales__subtitle {
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #331a2f;
+  opacity: 0.8;
+  text-align: center;
+  margin: 21px 0 50px;
+}
+
+.sales__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.sales__card {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sales__square {
+  width: 60px;
+  height: 60px;
+  background-color: #cf51ce;
+  box-shadow: 0px 4px 25px rgba(234, 93, 187, 0.25);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sales__icon {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.sales__header {
+  margin: 20px 0 10px;
+  text-align: center;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #331a2f;
+}
+
+.sales__text {
+  text-align: center;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #331a2f;
+  opacity: 0.8;
+}
