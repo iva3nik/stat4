@@ -72,3 +72,62 @@
 .education__text:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .education {
+    margin: 45px 0 65px;
+  }
+
+  .education__title {
+    margin: 15px 0 18px;
+    font-size: 46px;
+    line-height: 65px;
+    width: 688px;
+  }
+
+  .education__text {
+    width: 482px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .education {
+    margin: 66px 0 77px;
+  }
+
+  .education__title {
+    margin: 15px 0 40px;
+  }
+
+  .education__price {
+    margin-bottom: 40px;
+  }
+
+  .education__text {
+    width: 711px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .education {
+    margin: 66px auto 147px;
+  }
+
+  .education__title {
+    margin: 15px 0 22px;
+    font-size: 56px;
+    line-height: 80px;
+    width: 880px;
+  }
+
+  .education__price {
+    margin-bottom: 16px;
+  }
+
+  .education__text {
+    width: 868px;
+  }
+}
