@@ -1,0 +1,74 @@
+.education {
+  margin: 40px 0 85px;
+}
+
+.education__line {
+  display: flex;
+  align-items: center;
+}
+
+.education__line hr {
+  width: 10px;
+  margin: 0 8px;
+  height: 1px;
+  background-color: rgba(51, 26, 47, 0.5);
+  border: none;
+}
+
+.education__header {
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(51, 26, 47, 0.5);
+}
+
+.education__title {
+  margin: 44px 0 24px;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  color: #331a2f;
+  width: 202px;
+}
+
+.education__title span {
+  color: #cf51ce;
+}
+
+.education__price {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: rgba(51, 26, 47, 0.5);
+}
+
+.education__price span {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 55px;
+  color: #cf51ce;
+}
+
+.education__text {
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: rgba(51, 26, 47, 0.8);
+  margin-bottom: 10px;
+}
+
+.education__text:last-of-type {
+  margin-bottom: 0;
+}
