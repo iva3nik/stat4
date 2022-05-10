@@ -1,0 +1,44 @@
+.module__title {
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #331a2f;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.module__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.module__card:last-of-type {
+  margin-bottom: 0px;
+}
+
+.module__image {
+  width: 270px;
+  height: 277.7px;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 30px;
+}
+
+.module__text {
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  opacity: 0.8;
+  color: #331a2f;
+  margin-bottom: 10px;
+}
+
+.module__text:last-of-type {
+  margin-bottom: 0;
+}
