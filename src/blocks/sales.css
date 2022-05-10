@@ -164,6 +164,10 @@
 }
 
 @media screen and (min-width: 1100px) {
+  .sales {
+    margin-bottom: 121px;
+  }
+
   .sales__line {
     width: 218px;
     height: 6px;
@@ -210,6 +214,10 @@
 }
 
 @media screen and (min-width: 1610px) {
+  .sales {
+    margin-bottom: 131px;
+  }
+
   .sales__cards {
     width: 1529px;
   }
