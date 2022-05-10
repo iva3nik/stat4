@@ -1,0 +1,27 @@
+.circle {
+  opacity: 0;
+  position: absolute;
+  width: 446px;
+  height: 446.57px;
+  background-image: url(../assets/images/bg_ellipse.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0px;
+  left: -235px;
+}
+
+@media screen and (min-width: 1280px) {
+  .circle {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .circle {
+    width: 782px;
+    height: 783px;
+    top: 0px;
+    left: -325px;
+  }
+}
