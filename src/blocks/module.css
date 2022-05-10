@@ -9,6 +9,10 @@
   margin-bottom: 50px;
 }
 
+.module__title::before {
+  content: "Как работает модуль Аналитика по API для Wildberries?";
+}
+
 .module__card {
   display: flex;
   flex-direction: column;
@@ -41,4 +45,88 @@
 
 .module__text:last-of-type {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .module__title {
+    font-size: 40px;
+    line-height: 64px;
+    margin-bottom: 80px;
+  }
+
+  .module__card {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 40px;
+  }
+
+  .module__card_reverse {
+    flex-direction: row-reverse;
+  }
+
+  .module__image {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .module__title {
+    margin: 0 auto 80px;
+    width: 621px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .module__text {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .module__title {
+    margin: 0 auto 85px;
+    width: 652px;
+  }
+
+  .module__title::before {
+    content: "Небольшая предыстория о том, почему нам можно доверять";
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .module__card {
+    width: 995px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .module__title {
+    font-size: 48px;
+    width: 844px;
+  }
+
+  .module__card {
+    gap: 30px;
+  }
+
+  .module__image {
+    width: 352px;
+    height: 362px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .module__card {
+    width: 1286px;
+    gap: 80px;
+  }
+
+  .module__image {
+    width: 456px;
+    height: 469px;
+  }
 }
